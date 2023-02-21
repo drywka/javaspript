@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        
+        let a_dry = prompt("Podaj imie: ");
+        let b_dry = prompt("Podaj nazwisko: ");
+        for(i=0; i<b_dry.length%5+20;i++){
+            document.write("*");
+        }
+        document.write("<br>")
+        
+        for(j=0;j<a_dry.length%4+5;j++){
+            document.write("*");
+            for(k=0;k<b_dry.length%5+20+20;k++){
+                document.write("&nbsp")
+            }
+            document.write("*");
+            document.write("<br>");
+        }
+
+        for(i=0; i<b_dry.length%5+20;i++){
+            document.write("*");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+ <meta charset="utf-8">
+<script language="JavaScript">
+	var x=prompt("podaj wysokosc a = ","");
+	var a_dry=x;
+	var y=prompt("podaj szerokosc b = ","");
+	var b_dry=y;
+		for ( var i=1; i<=b_dry; i++)
+			{
+				document.write("*");
+			}
+				document.write("<br>");
+		var wiersz_dry="*";
+		for ( var j=1; j<=(b_dry-2); j++)
+			{
+				wiersz_dry=wiersz_dry+"&nbsp&nbsp";
+			}
+				wiersz_dry=wiersz_dry+"*";
+		for ( var j=1; j<=(a_dry-2); j++)
+			{
+		document.write(wiersz_dry);
+		document.write("<br>");
+			}
+
+
+
+		for ( var i=1; i<=b_dry; i++)
+			{
+		document.write("*");
+			}
+	</script>
+	</head>
+<body>
+</body>
+</html>
