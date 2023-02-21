@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
-<meta charset="utf-8">
-<title> Przykład użycia pętli </title>
-<script language="JavaScript">
-for ( var i=1; i<=a; i++)
-{
- var x=prompt ("podaj liczbe=","");
- var a=parseInt(x);
- if (i%2==0){document.write(i+"<br>");}
-}
-</script>
+    <meta charset="UTF-8">
 </head>
 <body>
+    <script> 
+        let l=parseFloat(prompt(" Wpisz liczbę "));
+        
+        for(i=1;i<l;i++){
+            if(i%2==0){
+                document.write(i + "<br>")
+            }
+        }
+    </script>
 </body>
 </html>
